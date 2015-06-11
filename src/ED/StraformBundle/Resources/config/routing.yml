@@ -1,0 +1,6 @@
+ed_straform_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EDStraformBundle:Default:index }
+form_admins:
+    path:    /admine
+    defaults:  { _controller: EDStraformBundle:Formation:index }
